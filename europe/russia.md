@@ -1,6 +1,6 @@
 # Russia Peers
 
-Operators of Yggdrasil public peers in Russia should consider joining the [Russian Meshnet](https://github.com/russian-meshnet/meshnet-chat-agenda/blob/master/README.md#чаты-и-мосты-в-разных-сетях) and [Yggdrasil RU](https://t.me/Yggdrasil_ru) community channels!
+Operators of Yggdrasil public peers in Russia should consider joining the [Russian Meshnet](https://github.com/russian-meshnet/meshnet-chat-agenda/blob/master/README.md#чаты-и-мосты-в-разных-сетях) and [Yggdrasil of the Renegades](https://github.com/DomesticMoth/shiny-octo-computing-machine) community channels!
 
 Add connection strings from the below list to the `Peers: []` section of your Yggdrasil configuration file to peer with these nodes.
 
@@ -16,12 +16,14 @@ Add connection strings from the below list to the `Peers: []` section of your Yg
   * `tcp://188.225.9.167:18226`
   * `tls://188.225.9.167:18227`
 
-* Public node, operated by [@cofob:cofob.ru](https://matrix.to/#/@cofob:cofob.ru)
-  * `tcp://kazi.peer.cofob.ru:18000`
-  * `tls://kazi.peer.cofob.ru:18001`
+* Moscow, public node, operated by [sergeysedoy97](https://t.me/sergeysedoy97), 1 Gbit/s, Dual-Stack
+  * `tls://x-msk.sergeysedoy97.ru:65535`
+  * `tls://178.20.45.32:65535`
+  * `tls://[2a0d:8480:2:54::]:65535`
 
-* Public node, operated by pvsur
-  * `tls://yggpvs.duckdns.org:8443`
+* Moscow, public node, operated by [sergeysedoy97](https://t.me/sergeysedoy97), 100 Mbit/s, IPv4 only
+  * `tls://x-msk-promo.sergeysedoy97.ru:65535`
+  * `tls://217.114.43.19:65535`
 
 ### Saint Petersburg
 
@@ -36,7 +38,8 @@ Add connection strings from the below list to the `Peers: []` section of your Yg
 ### Unknown
 
 * Public node, operated by ne-vlezay80
-  * `tls://[2a01:d0:ffff:4353::2]:6010`
+  * `tls://[2a01:d0:c353:1::1]:6010`
+  * `tls://[2001:470:1f15:a:4::1]:6010`
 
 ### Perm
 

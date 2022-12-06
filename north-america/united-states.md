@@ -10,8 +10,12 @@ Yggdrasil configuration file to peer with these nodes.
   * `tls://lax.yuetau.net:6643`
 
 * Fremont, Linode, VPS, operated by [derpindialer](https://github.com/derpindialer)
-  * `tcp://tasty.chowder.land:9002`
   * `tls://tasty.chowder.land:9001`
+  * `tcp://tasty.chowder.land:9002`
+
+* San Francisco, Digital Ocean, VPS, operated by [derpindialer](https://github.com/derpindialer)
+  * `tls://corn.chowder.land:443`
+  * `tcp://corn.chowder.land:9002`
 
 ### Illinois
 
@@ -28,6 +32,11 @@ Yggdrasil configuration file to peer with these nodes.
 * Lenexa, operated by [jcgruenhage](https://jcg.re)
   * `tls://108.175.10.127:61216`
   * `tls://[2607:f1c0:1801:d4::1]:61216`
+  
+* Kansas City, hosted by August Internet, operated by [Marek Küthe](https://mk16.de/)
+  * `tcp://ygg4.mk16.de:1337?key=0000147df8daa1cce2ad4b1d4b14c60a4c69a991b2dfde4e00ba7e95c36c530b`
+  * `tls://ygg4.mk16.de:1338?key=0000147df8daa1cce2ad4b1d4b14c60a4c69a991b2dfde4e00ba7e95c36c530b`
+  * `tls://ygg4.mk16.de:443?key=0000147df8daa1cce2ad4b1d4b14c60a4c69a991b2dfde4e00ba7e95c36c530b`
 
 ### Oklahoma
 
@@ -55,14 +64,15 @@ Yggdrasil configuration file to peer with these nodes.
 
 * Portland, OR (10Gbit, AWS ARM64) operated by [christoofar](https://github.com/christoofar)
   * `tls://44.234.134.124:443`
+  
+* hosted by Evolution Host via OVH SAS, operated by [Marek Küthe](https://mk16.de/)
+  * `tcp://ygg3.mk16.de:1337?key=000003acdaf2a60e8de2f63c3e63b7e911d02380934f09ee5c83acb758f470c1`
+  * `tls://ygg3.mk16.de:1338?key=000003acdaf2a60e8de2f63c3e63b7e911d02380934f09ee5c83acb758f470c1`
+
+### Texas
 
 * Dallas, operated by [acetone](http://[324:71e:281a:9ed3::ace]/)
   * `tls://bazari.sh:3725`
-
-* Dallas, Linode VPS, operated by [derpindialer](https://github.com/derpindialer)
-  * `tcp://creamy.chowder.land:9001`
-  * `tls://creamy.chowder.land:9002`
-  * `tls://creamy.chowder.land:443`
 
 ### Washington
 
@@ -74,10 +84,6 @@ Yggdrasil configuration file to peer with these nodes.
   * `tcp://zabugor.itrus.su:7991`
 
 ### Virginia
-
-* OVH virginia, operated by jeff
-  * `tcp://51.81.46.170:5000`
-  * `tls://51.81.46.170:5222`
 
 * Hetzner Virginia, operated by jeff
   * `tls://5.161.114.182:443`
